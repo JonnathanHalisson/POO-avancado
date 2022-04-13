@@ -20,27 +20,27 @@ public class OperateCar extends Carro implements Interface.OperateCar {
 
     @Override
     public boolean irParaFrente() {
-        return setIniciar(isIniciar());
+        return setIniciar(true);
     }
 
     @Override
     public boolean irParaTras() {
-        return setRe(isRe());
+        return setRe(true);
     }
 
     @Override
     public boolean acelerar() {
-        return setAcelerar(isAcelerar());
+        return setAcelerar(true);
     }
 
     @Override
     public boolean parar() {
-        return setParar(isParar());
+        return setParar(true);
     }
 
     @Override
     public boolean freiar() {
-        return setFreiar(isFreiar());
+        return setFreiar(true);
     }
 
 }

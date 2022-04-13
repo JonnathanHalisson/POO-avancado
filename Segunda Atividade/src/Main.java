@@ -7,13 +7,9 @@ public class Main {
         OperateCar op = new OperateCar(false,false,false,false);
 
         op.irParaFrente();
-        op.irParaDireita();
-        op.irParaEsquerda();
-        op.acelerar();
-        op.irParaTras();
-        op.parar();
-        op.freiar();
 
+
+        System.out.println(op.isIniciar());
 
     }
 }
