@@ -19,53 +19,49 @@ public class Carro {
         return freiar;
     }
 
-    public boolean setFreiar(boolean freiar) {
+    public void setFreiar(boolean freiar) {
         this.freiar = freiar;
-        return freiar;
+
     }
 
     public boolean isAcelerar() {
         return acelerar;
     }
 
-    public boolean setAcelerar(boolean acelerar) {
+    public void setAcelerar(boolean acelerar) {
         this.acelerar = acelerar;
-        return acelerar;
     }
 
     public Direction getDirection() {
         return direction;
     }
 
-    public Direction setDirection(Direction direction) {
+    public void setDirection(Direction direction) {
         this.direction = direction;
-        return direction;
     }
 
     public boolean isIniciar() {
         return iniciar;
     }
 
-    public boolean setIniciar(boolean iniciar) {
+    public void setIniciar(boolean iniciar) {
         this.iniciar = iniciar;
-        return iniciar;
     }
 
     public boolean isParar() {
         return parar;
     }
 
-    public boolean setParar(boolean parar) {
+    public void setParar(boolean parar) {
         this.parar = parar;
-        return parar;
+
     }
 
     public boolean isRe() {
         return re;
     }
 
-    public boolean setRe(boolean re) {
+    public void setRe(boolean re) {
         this.re = re;
-        return re;
     }
 }

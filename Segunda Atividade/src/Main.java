@@ -7,9 +7,11 @@ public class Main {
         OperateCar op = new OperateCar(false,false,false,false);
 
         op.irParaFrente();
+        op.irParaEsquerda();
+        op.irParaTras();
 
 
-        System.out.println(op.isIniciar());
+        System.out.println(op.getDirection());
 
     }
 }

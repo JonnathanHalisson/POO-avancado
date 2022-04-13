@@ -9,38 +9,38 @@ public class OperateCar extends Carro implements Interface.OperateCar {
     }
 
     @Override
-    public Direction irParaDireita() {
-        return setDirection(Direction.RIGHT);
+    public void irParaDireita() {
+        setDirection(Direction.RIGHT);
     }
 
     @Override
-    public Direction irParaEsquerda() {
-        return setDirection(Direction.LEFT);
+    public void irParaEsquerda() {
+        setDirection(Direction.LEFT);
     }
 
     @Override
-    public boolean irParaFrente() {
-        return setIniciar(true);
+    public void irParaFrente() {
+        setIniciar(true);
     }
 
     @Override
-    public boolean irParaTras() {
-        return setRe(true);
+    public void irParaTras() {
+        setRe(true);
     }
 
     @Override
-    public boolean acelerar() {
-        return setAcelerar(true);
+    public void acelerar() {
+        setAcelerar(true);
     }
 
     @Override
-    public boolean parar() {
-        return setParar(true);
+    public void parar() {
+        setParar(true);
     }
 
     @Override
-    public boolean freiar() {
-        return setFreiar(true);
+    public void freiar() {
+        setFreiar(true);
     }
 
 }

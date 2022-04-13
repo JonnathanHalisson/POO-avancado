@@ -4,12 +4,12 @@ import direção.Direction;
 
 public interface OperateCar {
 
-    public Direction irParaDireita();
-    public Direction irParaEsquerda();
-    public boolean irParaFrente();
-    public boolean irParaTras();
-    public boolean acelerar();
-    public boolean parar();
-    public boolean freiar();
+    public void irParaDireita();
+    public void irParaEsquerda();
+    public void irParaFrente();
+    public void irParaTras();
+    public void acelerar();
+    public void parar();
+    public void freiar();
 
 }
