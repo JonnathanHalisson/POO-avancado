@@ -33,9 +33,6 @@ public class Carro {
         return acelerar;
     }
 
-    public Direction getDirection() {
-        return direction;
-    }
 
     public Direction setDirection(Direction direction) {
         this.direction = direction;
@@ -64,7 +61,8 @@ public class Carro {
         return re;
     }
 
-    public void setRe(boolean re) {
+    public boolean setRe(boolean re) {
         this.re = re;
+        return re;
     }
 }

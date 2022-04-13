@@ -25,7 +25,7 @@ public class OperateCar extends Carro implements Interface.OperateCar {
 
     @Override
     public boolean irParaTras() {
-        return setParar(isParar());
+        return setRe(isRe());
     }
 
     @Override
@@ -42,4 +42,5 @@ public class OperateCar extends Carro implements Interface.OperateCar {
     public boolean freiar() {
         return setFreiar(isFreiar());
     }
+
 }
