@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        @SuppressWarnings("resource")
 
         Scanner entrada = new Scanner(System.in);
         int hora, minuto, segundo;
@@ -34,7 +33,7 @@ public class Main {
 
         produto.calculaPreco(horario, horario);
 
-        System.out.println("Preco do produto: "+produto.getPreco());
+        System.out.println("Preço do produto: "+produto.getPreco());
 
     }
 }
